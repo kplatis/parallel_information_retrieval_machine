@@ -1,0 +1,4 @@
+Jimmy Wales had categorically denied community concerns that WMF was developing a search engine via the Knowledge Engine, calling the suggestion “a lie”.
+Andreas Kolbe, who pieced together the Knowledge Engine story for a Wikipedia Signpost article this week, says the details of the grant have come as a surprise.
+“Its gung-ho 'We're building a search engine!' content is a bit of a bombshell for the volunteer community," said Kolbe. "They were led to believe it was just about getting a central search function to find stuff spread out across the various Wikimedia sites, with OpenStreetMap thrown in perhaps… Volunteers feel WMF management has purposely kept them out of the loop.”
+At least two of the six "conceptual directions for discovery", aka redesigns of the Wikipedia front page, sure look like Google-style search engines to us

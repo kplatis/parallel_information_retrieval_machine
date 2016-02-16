@@ -1,0 +1,4 @@
+Explanation: Since Java streams use a ForkJoin pool, the inner forEach is forking, and the join appears to be waiting for ever. However, this behavior is still unexpected. Note that parallel streams even work if you set "java.util.concurrent.ForkJoinPool.common.parallelism" to 1.
+Note also that it may not be transparent if there is an inner parallel forEach.
+Question: Is this behavior in accordance with the Java 8 specification (in that case it would imply that the use of Semaphores inside parallel streams workers is forbidden) or is this a bug?
+For convenience: Below is a complete test case. Any combinations of the two booleans work, except "true, true", which results in the deadlock
